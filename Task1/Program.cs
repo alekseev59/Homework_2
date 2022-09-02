@@ -3,6 +3,7 @@
 // 782 -> 8
 // 918 -> 1
 
-int num = new Random().Next(100, 1000);
+Console.WriteLine("Введите трехзначное число");
+int num = int.Parse(Console.ReadLine());;
 
 Console.WriteLine($"{num} -> {(num / 10) % 10}");
