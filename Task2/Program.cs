@@ -3,9 +3,8 @@
 // 78 -> третьей цифры нет
 // 32679 -> 6
 
-int num = new Random().Next(10, 1000);
-
-Console.WriteLine(num);
+Console.WriteLine("Введите двух или трехзначное число");
+int num = int.Parse(Console.ReadLine());
 
 if (num > 100)
 {
@@ -13,5 +12,5 @@ if (num > 100)
 }
 else
 {
-    Console.WriteLine("третьей цифры нет");
+    Console.WriteLine("Третьей цифры нет");
 }
